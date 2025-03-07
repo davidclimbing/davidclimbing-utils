@@ -11,6 +11,7 @@
     }
   },
   "scripts": {
+    "prepack": "yarn build",
     "build": "yarn build:tsc",
     "build:tsc": "yarn tsc"
   },
